@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import type { Role } from "@/lib/constanta";
 import { FileText, Handshake, MessageSquare, Sparkles, Workflow } from "lucide-react";
 
-export function Dashboard({ role, accepted }: { role: Role | null; accepted: string[] }) {
+export function Dashboard({ role }: { role: Role | null; accepted: string[] }) {
   return (
     <div className="space-y-6">
       <Card className="rounded-2xl">
